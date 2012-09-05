@@ -27,12 +27,13 @@ To fix it:
 * Make sure you install python on your system
 * Add this into your apache config file to make cgi-bin work with python interpreter:
 
-    <Directory "<Path to your code folder>">
-         AllowOverride All
-         Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
-         Order allow,deny
-         Allow from all
-         AddHandler cgi-script .py # tell Apache to handle every file with .py suffix as a cgi program
-         AddHandler default-handler .html .htm  # tell Apache to handle HTML files in regular way
-    </Directory> 
+===
+     <Directory "<Path to your code folder>">
+          AllowOverride All
+          Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+          Order allow,deny
+          Allow from all
+          AddHandler cgi-script .py # tell Apache to handle every file with .py suffix as a cgi program
+          AddHandler default-handler .html .htm  # tell Apache to handle HTML files in regular way
+     </Directory> 
 
