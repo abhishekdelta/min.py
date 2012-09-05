@@ -1,0 +1,73 @@
+#advanced-search-bar {
+    background-color: #473B39;
+    margin-top: 15px;
+    padding: 30px;
+}
+
+.roundborder {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+}
+
+.btn-green {
+    background-color: #8BBD1E;
+    background-image: -moz-linear-gradient(center top , #A9DB3C, #6D9F00);
+    border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 #6D9F00;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"] {
+    height: auto;
+    width: auto;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+
+.advanced-search-textarea {
+    background-color: #FFFFFF  !important;
+    border-radius: 5px 5px 5px 5px  !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.25)  !important;
+    color: #AAAAAA  !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif  !important;
+    font-size: 18px !important;
+    font-weight: bold  !important;
+    height: 45px  !important;
+    line-height: 1  !important;
+    padding: 4px 9px  !important;
+    width: 40%  !important;
+}
+
+.btn-xlarge {
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: normal;
+    padding: 12px 29px;
+}
+
+.btn-green:hover, .btn-green:active, .btn-green.active, .btn-green.disabled, .btn-green[disabled] {
+    background-color: #6D9F00;
+}
+.btn-green:hover {
+    color: #FFFFE6;
+    text-shadow: 0 -1px 0 #4F8100;
+}
+.btn-green:focus {
+    border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #EFFF82;
+}
+.btn-green.active, .btn-green:active {
+    background-image: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #EFFF82;
+}
+
+.topmar { 
+margin-top : 5px;
+}
