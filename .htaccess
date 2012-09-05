@@ -1,10 +1,5 @@
 Options +FollowSymLinks
 Options +Indexes
-#AuthType Basic
-#AuthName "F.B.I. Warning! You are being tracked. Its a crime to access this system. You'll be prosecuted to the full extent of U.S. Law."
-#AuthUserFile /var/www/clients/client3/web3/web/.htpasswd
-#Require valid-user
-# Rewrite subdomain requests to subdirectories except for www.example.com
 RewriteEngine On
 RewriteCond $1 !^(index\.py|public|robots\.txt|favicon\.ico)
 RewriteRule ^(.*)$ /index.py/$1 [L]
